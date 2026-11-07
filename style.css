@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f4f8;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #263c63;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.balance-box {
+    background: #263c63;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.balance-box h2 {
+    font-size: 18px;
+}
+
+.balance-box h1 {
+    color: white;
+    margin-top: 10px;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #263c63;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #405d8e;
+}
+
+.container h2 {
+    margin-bottom: 15px;
+    color: #263c63;
+}
+
+#expenseList {
+    list-style: none;
+}
+
+#expenseList li {
+    background: #f0f4f8;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    overflow-wrap: anywhere;
+}
+
+.delete-btn {
+    width: auto;
+    padding: 7px 10px;
+    background: #e74c3c;
+    font-size: 13px;
+}
